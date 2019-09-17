@@ -119,7 +119,7 @@ def div_address(add: str, op: int):
     else:
         add4 = ""
     # 详细地址/门牌号等————路名、门牌号、详细地址
-    if op == 1:
+    if op == '1':
         add5 = add
         ans = [add1, add2, add3, add4, add5]
     else:
@@ -181,7 +181,7 @@ def main():
     # 去掉末尾.
     instr = instr[:-1]
     # 输出处理结果
-    print((data_processing(instr)))
+    print(data_processing(instr))
 
 
 main()
